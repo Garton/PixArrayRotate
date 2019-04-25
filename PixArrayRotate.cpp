@@ -11,7 +11,6 @@ using namespace std;
 void matrixPrint(size_t N, const uint32_t* pMatrix);
 
 
-
 enum class Direction {
 	RIGHT,
 	LEFT
@@ -24,8 +23,8 @@ enum class Direction {
 uint8_t matrixRotate(size_t N, uint32_t* pMatrix, Direction dir);
 
 /****************************************************************
-	getSqrMatrix() - create two-dimensional array without copy 
-	!!!!ONLY for square matrix!!!!
+	getSqrMatrix() - create two-dimensional array(square matrix)
+	from one-dimensonal without copy 
 	N - one side pMatrix size
 	pMatrix - pointer to N*N array(pMatrix)
 	return - pointer to two-dimensional array (square matrix)
